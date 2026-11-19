@@ -15,6 +15,8 @@ Face tracking for **Lunary** and **Lunary Kisekae** by あまのえむ (mellowpi
 
 ---
 
+Demo video: [https://youtu.be/cTbftDgtHQg](https://youtu.be/cTbftDgtHQg)
+
 [日本語](#日本語) · [English](#english)
 
 ## 日本語
