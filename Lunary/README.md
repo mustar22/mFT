@@ -1,3 +1,4 @@
+<img src="icon.png" width="160" align="right">
 
 # Lunary Face Tracking v1.4.1 + mFT 2.0 native v2.0.0-beta
 
