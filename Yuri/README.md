@@ -3,7 +3,7 @@
 # Yuri Face Tracking v1.1 + mFT 2.0 native v2.0.0-beta
 
 Free report. Read this before you buy: what you get, what changes on your avatar, and the numbers, explained.
-Face tracking for **悠莉 - Yuri -** by VISIONTOKYO (Cold, Warm, Kisekae, Makeup). Built by mustar.
+Face tracking for **悠莉 - Yuri -** by VISIONTOKYO. Built by mustar.
 
 **Thanks to VISIONTOKYO for the green light to make face tracking for Yuri.**
 制作を快諾してくださった VISIONTOKYO さまに感謝します。
