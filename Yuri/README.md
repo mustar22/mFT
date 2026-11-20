@@ -1,157 +1,18 @@
-<img src="icon.jpg" width="160" align="right">
+<p align="center"><img src="icon.jpg" width="180"></p>
 
-# Yuri Face Tracking v2.0.0-native
+<h1 align="center">Yuri Face Tracking</h1>
 
+<p align="center">mFT v2.0.0-native for <b>悠莉 - Yuri - by VISIONTOKYO</b></p>
 
-Free report. Read this before you buy: what you get, what changes on your avatar, and the numbers, explained.
-Face tracking for **悠莉 - Yuri -** by VISIONTOKYO. Built by mustar. Native (VRChat's built-in FT) and classic install in one package.
+<p align="center"><a href="https://mustarlabs.booth.pm/items/8926576">mFT on BOOTH</a> · <a href="https://visiontokyo.booth.pm/items/8670449">【オリジナル3Dモデル】悠莉-Yuri-</a> · <a href="https://youtu.be/OH4fnlD3O7s">Demo video</a></p>
 
-**Thanks to VISIONTOKYO for the green light to make face tracking for Yuri.**
-制作を快諾してくださった VISIONTOKYO さまに感謝します。
-
-Yuri: [【オリジナル3Dモデル】悠莉-Yuri-](https://visiontokyo.booth.pm/items/8670449)
-
-Demo video: [https://youtu.be/OH4fnlD3O7s](https://youtu.be/OH4fnlD3O7s)
-
-> **Mustard Awards**
-> **Yuri: 7.5 / 10 mustard cans.**
-> How well the model behaved on the way to face tracking. Higher is better.
-> Plus: 544 shapes to build from, and his own sparkle, blush, sweat and shadow decals, ready to become emotes.
-> Minus: his eyes barely turned out of the box, and his jaw shapes didn't close cleanly.
-
-
-
----
-
-[日本語](#日本語) · [English](#english)
-
-## 日本語
-
-### 概要
-
-- 悠莉の口、目、舌、頬、眉があなたの顔に合わせて動きます。彼の顔のために造形したシェイプ 63 個と、彼のシェイプを組み合わせたミックス 12 個。
-- Cold、Warm、Kisekae、Makeup の 4 種すべてで動きます。
-- 導入はボタンひとつ。元のファイルには一切触れません。
-- 悠莉本体とフェイストラッキング機器は含まれません。
-
-mFT はゼロから作った独自テンプレートで、より幅広いツールと豊かな表現力を求める人のための選択肢です。
-
-### 数字とその意味
-
-| 数字 | 意味 |
-|---|---|
-| 自分 +0.33 ms、他の人 +0.30 ms (ネイティブ) | 1 フレームあたりの追加負荷。2026-11-20 にきれいなシーンで計測、上限と考えてください。従来版 (2026-10-03 計測): フルで自分 +0.61 ms / 他の人 +0.80 ms、ライトで +0.49 ms / +0.59 ms。 |
-| 32 / 256 (ネイティブ)、170 / 256 (従来版フル)、145 / 256 (従来版ライト) | 同期パラメーター。ネイティブは別々に数えます: 彼自身 6 + FT 26 (フル) または 7 (ライト)。顔の動き自体は 0 bit。Kisekae の従来版: 165 / 140。エモートは 1 個 1 bit。 |
-| シェイプ 94 個 + 彼の 544 個 | 造形 63、彼のシェイプのミックス 12、左右分割 4、ビゼーム 20% が 15。彼のシェイプはひとつも消しません。 |
-| 舌 10 ポーズ | 上、下、左右、斜め、ロール。どれも舌を出した完成形なので、混ぜても崩れません。 |
-| パッケージ 3.0 MB | 差分データのみ。アバター本体のデータは入っていません。 |
-
-### 中身
-
-- ワールド内キャリブレーションと微調整ダイヤル 7 種。
-- デバッグパネル: 顔、目、全表情の値をその場で表示。左手首のボタンで開閉。
-- スムージング Off / 5〜30 ms、または Stop Motion。見ている人にも設定どおりに映ります。
-- フリーズと瞳 (エミュレートまたはトラッカー)。
-- エモート 4 種 (キラキラ目、照れ、汗、どんより): 表情で発動し、それぞれメニューで ON/OFF。
-- 口はどの開き具合でもきれいに閉じます: 唇が押し合わず、口角に黒い筋も出ません。
-- 見ている人には目に小さな自然な揺れが見えます。0 bit。
-
-### アバターで変わること
-
-- 顔と目はフェイストラッキングが担当するので、彼の手動の目の操作メニューは外れます。
-- ハンドジェスチャーの表情は初期オフ (メニューで ON)。
-- Makeup: _FT コピーでは顔のスライダーが初期値に戻ります。元のアバターはそのまま。
-- それ以外はそのままです。
-
-### 弱点
-
-- 悠莉専用 (Cold、Warm、Kisekae、Makeup)。 PC で確認、Quest は未検証。
-- キャリブレーションと Tune は保存されますが、アバターのリセットでは初期値に戻ります。
-- ヒンディー語とアラビア語はキャリブレーションパネルのみ。メニューとパッチャーは英語表示です。
-- 悠莉の更新で顔のメッシュが変わると、対応版が必要です。
-
-### 必要なもの
-
-悠莉 (どのバージョンでも)、VRChat SDK (3.10.6 以降)、VRCFT (Steam 版、メインでもベータブランチでも可)、VRCFT (Unified Expressions) で動くフェイストラッカー。 悠莉本体 (Modular Avatar、lilToon) の導入は VISIONTOKYO さまの説明に従ってください。
-
-### 技術的な詳細
-
-- 負荷の測り方: Unity 上でアバター自身の FX と完成した FX を比較、10 フレームの実行を繰り返した中央値。ネイティブは 2026-11-20 にきれいなシーンで計測、その日の誤差は約 30%。
-- 顔メッシュ 13,384 頂点 / 23,004 三角形。
-- 目: VRChat は目のマッスルを 1 までに制限するので、コピーは専用のヒューマノイドを持ち、目の可動域と VRChat の視線角度を広げています。
-- 口を閉じるシェイプは顎の開き具合で上限がかかり、法線は顎の分をぴったり打ち消すので、陰影も崩れません。
-- スムージングはフレームレートに左右されず、設定は 3 bit で同期。Stop Motion はその設定値のひとつなので追加コストなし。
-- ネイティブ: 式の命令 140、フェイストラッキング演算 325。
-
----
-
-## English
-
-### In short
-
-- Yuri's mouth, eyes, tongue, cheeks and brows move with your face. 63 shapes sculpted for his face, plus 12 mixes of his own shapes.
-- Works on all four: Cold, Warm, Kisekae and Makeup.
-- One button to install. Your original files are never touched.
-- Yuri and a face tracking device are not included.
-
-mFT runs on my own template, written from scratch, for people who want a wider toolkit and more expressiveness.
-
-### The numbers, and what they mean
-
-| number | what it means |
-|---|---|
-| You +0.33 ms, viewers +0.30 ms (native) | Added per frame. Measured 2026-11-20 in a clean scene, treat it as an upper bound. Classic (measured 2026-10-03): Full you +0.61 ms / viewers +0.80 ms, Light +0.49 ms / +0.59 ms. |
-| 32 / 256 (native), 170 / 256 (classic Full), 145 / 256 (classic Light) | Synced parameters. Native counts them apart: his own 6 + FT 26 (Full) or 7 (Light). The face itself is 0 bits. Kisekae classic: 165 / 140. Emotes are 1 bit each. |
-| 94 shapes + his 544 | 63 sculpted, 12 mixes of his own shapes, 4 left/right splits, 15 visemes at 20%. None of his removed. |
-| 10 tongue poses | Up, down, sideways, diagonals, roll. Each is a complete tongue-out pose, so blends never fall apart. |
-| Package 3.0 MB | Shape differences only, no avatar data. |
-
-### What you get
-
-- In-world calibration and 7 fine-tune dials.
-- Debug panel: face, eyes and every expression value, live. A button on your left wrist opens it.
-- Smoothing Off / 5 to 30 ms, or Stop Motion. Viewers see you as you set it.
-- Freeze and pupils (emulated or tracker).
-- 4 emotes (sparkly eyes, blush, sweat drop, gloom): your face triggers them, each has its own menu toggle.
-- The mouth closes cleanly at any jaw opening: no lips pushed into each other, no dark creases at the corners.
-- Living eyes: viewers see tiny natural eye flicks. 0 bits.
-
-### What changes on your avatar
-
-- Face tracking takes over the face and eyes, so his manual eye control menu is removed.
-- Hand gesture expressions start off (menu toggle).
-- Makeup: on the _FT copy the face sliders go back to default. The original keeps them.
-- Everything else stays as it was.
-
-### Cons
-
-- Yuri only (Cold, Warm, Kisekae, Makeup). Tested on PC, Quest is untested.
-- Calibration and Tune are saved, but Reset Avatar puts them back to default.
-- Hindi and Arabic: calibration panel only, the menu and patcher show English.
-- If a Yuri update changes the face mesh, an updated version is needed.
-
-### You need
-
-Yuri (any version), the VRChat SDK (3.10.6 or newer), VRCFT (Steam, main or beta branch), and a face tracker that works with VRCFT (Unified Expressions). For Yuri himself (Modular Avatar, lilToon), follow VISIONTOKYO's instructions.
-
-### Technical details
-
-- How cost was measured: the avatar's own FX against the built one in Unity, the median of repeated 10-frame runs. Native measured 2026-11-20 in a clean scene; editor noise that day was about 30%.
-- Face mesh 13,384 verts / 23,004 tris.
-- Eyes: VRChat caps eye muscles at 1, so the copy gets its own humanoid with wider eye limits and wider VRChat eye-look angles.
-- The mouth-closed shape is capped by how far the jaw is open. Its normals cancel the jaw's exactly, so the lighting holds too.
-- Smoothing is frame-rate exact and your preset syncs in 3 bits. Stop Motion is one of the preset's values, so it costs nothing extra.
-- Native: 140 expression instructions, 325 face-tracking operations.
-
----
-
-## Debug panel
-
-![debug panel](debug_panel.png)
+<p align="center"><b>Thanks to VISIONTOKYO for the green light to make face tracking for Yuri.</b></p>
+<p align="center">制作を快諾してくださった VISIONTOKYO さまに感謝します。</p>
 
 ## Expressions
 
-FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。 FT shapes, each looping 0 → 1 → 0. Left and right are as you look at the avatar (its own left shows on your right).
+FT shapes, each looping 0 → 1 → 0. Left and right are as you look at the avatar (its own left shows on your right).  
+FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。
 
 <table>
 <tr><td align="center"><img src="expressions/EyeClosedRight.webp" width="200"><br><sub>EyeClosed (left)</sub></td><td align="center"><img src="expressions/EyeWideRight.webp" width="200"><br><sub>EyeWide (left)</sub></td><td align="center"><img src="expressions/EyeSquintRight.webp" width="200"><br><sub>EyeSquint (left)</sub></td><td align="center"><img src="expressions/Brows_Up.webp" width="200"><br><sub>BrowInnerUp · BrowOuterUp (left, right)</sub></td></tr>
@@ -228,3 +89,141 @@ FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。 
 </table>
 
 </details>
+
+## English
+
+### In short
+
+- Yuri's mouth, eyes, tongue, cheeks and brows move with your face. 63 shapes sculpted for his face, plus 12 mixes of his own shapes.
+- Works on all four: Cold, Warm, Kisekae and Makeup.
+- One button to install. Your original files are never touched.
+- Yuri and a face tracking device are not included.
+
+mFT runs on my own template, written from scratch, for people who want a wider toolkit and more expressiveness.
+
+<details><summary>Full report</summary>
+
+### The numbers, and what they mean
+
+| number | what it means |
+|---|---|
+| You +0.33 ms, viewers +0.30 ms (native) | Added per frame. Measured 2026-11-20 in a clean scene, treat it as an upper bound. Classic (measured 2026-10-03): Full you +0.61 ms / viewers +0.80 ms, Light +0.49 ms / +0.59 ms. |
+| 32 / 256 (native), 170 / 256 (classic Full), 145 / 256 (classic Light) | Synced parameters. Native counts them apart: his own 6 + FT 26 (Full) or 7 (Light). The face itself is 0 bits. Kisekae classic: 165 / 140. Emotes are 1 bit each. |
+| 94 shapes + his 544 | 63 sculpted, 12 mixes of his own shapes, 4 left/right splits, 15 visemes at 20%. None of his removed. |
+| 10 tongue poses | Up, down, sideways, diagonals, roll. Each is a complete tongue-out pose, so blends never fall apart. |
+| Package 3.0 MB | Shape differences only, no avatar data. |
+
+### What you get
+
+- In-world calibration and 7 fine-tune dials.
+- Debug panel: face, eyes and every expression value, live. A button on your left wrist opens it.
+- Smoothing Off / 5 to 30 ms, or Stop Motion. Viewers see you as you set it.
+- Freeze and pupils (emulated or tracker).
+- 4 emotes (sparkly eyes, blush, sweat drop, gloom): your face triggers them, each has its own menu toggle.
+- The mouth closes cleanly at any jaw opening: no lips pushed into each other, no dark creases at the corners.
+- Living eyes: viewers see tiny natural eye flicks. 0 bits.
+
+### What changes on your avatar
+
+- Face tracking takes over the face and eyes, so his manual eye control menu is removed.
+- Hand gesture expressions start off (menu toggle).
+- Makeup: on the _FT copy the face sliders go back to default. The original keeps them.
+- Everything else stays as it was.
+
+### Cons
+
+- Yuri only (Cold, Warm, Kisekae, Makeup). Tested on PC, Quest is untested.
+- Calibration and Tune are saved, but Reset Avatar puts them back to default.
+- Hindi and Arabic: calibration panel only, the menu and patcher show English.
+- If a Yuri update changes the face mesh, an updated version is needed.
+
+### You need
+
+Yuri (any version), the VRChat SDK (3.10.6 or newer), VRCFT (Steam, main or beta branch), and a face tracker that works with VRCFT (Unified Expressions). For Yuri himself (Modular Avatar, lilToon), follow VISIONTOKYO's instructions.
+
+### Technical details
+
+- How cost was measured: the avatar's own FX against the built one in Unity, the median of repeated 10-frame runs. Native measured 2026-11-20 in a clean scene; editor noise that day was about 30%.
+- Face mesh 13,384 verts / 23,004 tris.
+- Eyes: VRChat caps eye muscles at 1, so the copy gets its own humanoid with wider eye limits and wider VRChat eye-look angles.
+- The mouth-closed shape is capped by how far the jaw is open. Its normals cancel the jaw's exactly, so the lighting holds too.
+- Smoothing is frame-rate exact and your preset syncs in 3 bits. Stop Motion is one of the preset's values, so it costs nothing extra.
+- Native: 140 expression instructions, 325 face-tracking operations.
+
+---
+
+> **Mustard Awards**  
+> **Yuri: 7.5 / 10 mustard cans.**  
+> How well the model behaved on the way to face tracking. Higher is better.  
+> Plus: 544 shapes to build from, and his own sparkle, blush, sweat and shadow decals, ready to become emotes.  
+> Minus: his eyes barely turned out of the box, and his jaw shapes didn't close cleanly.
+
+</details>
+
+## 日本語
+
+<details><summary>日本語で読む</summary>
+
+### 概要
+
+- 悠莉の口、目、舌、頬、眉があなたの顔に合わせて動きます。彼の顔のために造形したシェイプ 63 個と、彼のシェイプを組み合わせたミックス 12 個。
+- Cold、Warm、Kisekae、Makeup の 4 種すべてで動きます。
+- 導入はボタンひとつ。元のファイルには一切触れません。
+- 悠莉本体とフェイストラッキング機器は含まれません。
+
+mFT はゼロから作った独自テンプレートで、より幅広いツールと豊かな表現力を求める人のための選択肢です。
+
+### 数字とその意味
+
+| 数字 | 意味 |
+|---|---|
+| 自分 +0.33 ms、他の人 +0.30 ms (ネイティブ) | 1 フレームあたりの追加負荷。2026-11-20 にきれいなシーンで計測、上限と考えてください。従来版 (2026-10-03 計測): フルで自分 +0.61 ms / 他の人 +0.80 ms、ライトで +0.49 ms / +0.59 ms。 |
+| 32 / 256 (ネイティブ)、170 / 256 (従来版フル)、145 / 256 (従来版ライト) | 同期パラメーター。ネイティブは別々に数えます: 彼自身 6 + FT 26 (フル) または 7 (ライト)。顔の動き自体は 0 bit。Kisekae の従来版: 165 / 140。エモートは 1 個 1 bit。 |
+| シェイプ 94 個 + 彼の 544 個 | 造形 63、彼のシェイプのミックス 12、左右分割 4、ビゼーム 20% が 15。彼のシェイプはひとつも消しません。 |
+| 舌 10 ポーズ | 上、下、左右、斜め、ロール。どれも舌を出した完成形なので、混ぜても崩れません。 |
+| パッケージ 3.0 MB | 差分データのみ。アバター本体のデータは入っていません。 |
+
+### 中身
+
+- ワールド内キャリブレーションと微調整ダイヤル 7 種。
+- デバッグパネル: 顔、目、全表情の値をその場で表示。左手首のボタンで開閉。
+- スムージング Off / 5〜30 ms、または Stop Motion。見ている人にも設定どおりに映ります。
+- フリーズと瞳 (エミュレートまたはトラッカー)。
+- エモート 4 種 (キラキラ目、照れ、汗、どんより): 表情で発動し、それぞれメニューで ON/OFF。
+- 口はどの開き具合でもきれいに閉じます: 唇が押し合わず、口角に黒い筋も出ません。
+- 見ている人には目に小さな自然な揺れが見えます。0 bit。
+
+### アバターで変わること
+
+- 顔と目はフェイストラッキングが担当するので、彼の手動の目の操作メニューは外れます。
+- ハンドジェスチャーの表情は初期オフ (メニューで ON)。
+- Makeup: _FT コピーでは顔のスライダーが初期値に戻ります。元のアバターはそのまま。
+- それ以外はそのままです。
+
+### 弱点
+
+- 悠莉専用 (Cold、Warm、Kisekae、Makeup)。 PC で確認、Quest は未検証。
+- キャリブレーションと Tune は保存されますが、アバターのリセットでは初期値に戻ります。
+- ヒンディー語とアラビア語はキャリブレーションパネルのみ。メニューとパッチャーは英語表示です。
+- 悠莉の更新で顔のメッシュが変わると、対応版が必要です。
+
+### 必要なもの
+
+悠莉 (どのバージョンでも)、VRChat SDK (3.10.6 以降)、VRCFT (Steam 版、メインでもベータブランチでも可)、VRCFT (Unified Expressions) で動くフェイストラッカー。 悠莉本体 (Modular Avatar、lilToon) の導入は VISIONTOKYO さまの説明に従ってください。
+
+### 技術的な詳細
+
+- 負荷の測り方: Unity 上でアバター自身の FX と完成した FX を比較、10 フレームの実行を繰り返した中央値。ネイティブは 2026-11-20 にきれいなシーンで計測、その日の誤差は約 30%。
+- 顔メッシュ 13,384 頂点 / 23,004 三角形。
+- 目: VRChat は目のマッスルを 1 までに制限するので、コピーは専用のヒューマノイドを持ち、目の可動域と VRChat の視線角度を広げています。
+- 口を閉じるシェイプは顎の開き具合で上限がかかり、法線は顎の分をぴったり打ち消すので、陰影も崩れません。
+- スムージングはフレームレートに左右されず、設定は 3 bit で同期。Stop Motion はその設定値のひとつなので追加コストなし。
+- ネイティブ: 式の命令 140、フェイストラッキング演算 325。
+
+---
+
+</details>
+
+## Debug panel
+
+![debug panel](debug_panel.png)

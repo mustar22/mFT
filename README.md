@@ -1,17 +1,11 @@
-# mFT
+<h1 align="center">mFT</h1>
 
-mustar のフェイストラッキング。モデルごとのシェイプ、数字、説明。
-Face tracking for VRChat avatars by mustar. Shapes, stats and docs per model.
+<p align="center"><b>Face tracking for VRChat avatars, by mustar.</b><br>Shapes sculpted per avatar, VRChat native face tracking, previews of every shape.</p>
+<p align="center">mustar のフェイストラッキング。アバターごとに造形したシェイプと、その全プレビュー。</p>
 
-| | Model | Creator | Expressions | Demo |
-|---|---|---|---|---|
-| <img src="Wendy/icon.png" width="64"> | [Wendy](Wendy/) | 薄暮帰路 | [preview](Wendy/README.md#expressions) | [video](https://youtu.be/4iEUEHY-Ous) |
-| <img src="Haruka/icon.png" width="64"> | [Haruka](Haruka/) | BLUESTELLA | [preview](Haruka/README.md#expressions) | [video](https://youtu.be/BaPW5rd_xLo) |
-| <img src="Chiyu/icon.png" width="64"> | [Chiyu](Chiyu/) | plium | [preview](Chiyu/README.md#expressions) | [video](https://youtu.be/25gfjd5u3mI) |
-| <img src="Salt/icon.png" width="64"> | [Salt](Salt/) | komado | [preview](Salt/README.md#expressions) | [video](https://youtu.be/ixlHtQ36ZWg) |
-| <img src="Michella/icon.png" width="64"> | [Michella](Michella/) | CEM DOLLS | [preview](Michella/README.md#expressions) | [video](https://youtu.be/fPGB_iy_bqk) |
-| <img src="Yuri/icon.jpg" width="64"> | [Yuri](Yuri/) | VISIONTOKYO | [preview](Yuri/README.md#expressions) | [video](https://youtu.be/OH4fnlD3O7s) |
-| <img src="Lunary/icon.png" width="64"> | [Lunary](Lunary/) | あまのえむ (mellowpink) | [preview](Lunary/README.md#expressions) | [video](https://youtu.be/cTbftDgtHQg) |
-| <img src="Twale/icon.png" width="64"> | [Twale](Twale/) | 図鑑 | [preview](Twale/README.md#expressions) | [video](https://youtu.be/CSxgPL3owQA) |
+<table>
+<tr><td align="center" width="25%"><a href="Wendy/README.md#expressions"><img src="Wendy/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Wendy/">Wendy</a></b><br><sub>薄暮帰路</sub><br><sub><a href="Wendy/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/9122969">BOOTH</a> · <a href="https://youtu.be/4iEUEHY-Ous">video</a></sub></td><td align="center" width="25%"><a href="Haruka/README.md#expressions"><img src="Haruka/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Haruka/">Haruka</a></b><br><sub>BLUESTELLA</sub><br><sub><a href="Haruka/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/9103429">BOOTH</a> · <a href="https://youtu.be/BaPW5rd_xLo">video</a></sub></td><td align="center" width="25%"><a href="Chiyu/README.md#expressions"><img src="Chiyu/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Chiyu/">Chiyu</a></b><br><sub>plium</sub><br><sub><a href="Chiyu/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/9078058">BOOTH</a> · <a href="https://youtu.be/25gfjd5u3mI">video</a></sub></td><td align="center" width="25%"><a href="Salt/README.md#expressions"><img src="Salt/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Salt/">Salt</a></b><br><sub>komado</sub><br><sub><a href="Salt/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/9081877">BOOTH</a> · <a href="https://youtu.be/ixlHtQ36ZWg">video</a></sub></td></tr>
+<tr><td align="center" width="25%"><a href="Michella/README.md#expressions"><img src="Michella/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Michella/">Michella</a></b><br><sub>CEM DOLLS</sub><br><sub><a href="Michella/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/8944145">BOOTH</a> · <a href="https://youtu.be/fPGB_iy_bqk">video</a></sub></td><td align="center" width="25%"><a href="Yuri/README.md#expressions"><img src="Yuri/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Yuri/">Yuri</a></b><br><sub>VISIONTOKYO</sub><br><sub><a href="Yuri/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/8926576">BOOTH</a> · <a href="https://youtu.be/OH4fnlD3O7s">video</a></sub></td><td align="center" width="25%"><a href="Lunary/README.md#expressions"><img src="Lunary/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Lunary/">Lunary</a></b><br><sub>あまのえむ (mellowpink)</sub><br><sub><a href="Lunary/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/8886565">BOOTH</a> · <a href="https://youtu.be/cTbftDgtHQg">video</a></sub></td><td align="center" width="25%"><a href="Twale/README.md#expressions"><img src="Twale/expressions/MouthSmile.webp" width="180"></a><br><b><a href="Twale/">Twale</a></b><br><sub>図鑑</sub><br><sub><a href="Twale/README.md#expressions">previews</a> · <a href="https://mustarlabs.booth.pm/items/9093402">BOOTH</a> · <a href="https://youtu.be/CSxgPL3owQA">video</a></sub></td></tr>
+</table>
 
 The avatars belong to their creators and are shown with credit. mFT itself is not in this repo.
