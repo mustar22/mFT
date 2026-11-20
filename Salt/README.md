@@ -2,6 +2,8 @@
 
 # Salt Face Tracking v2.0.0-native
 
+**▶▶▶ FT シェイプを動くプレビューでチェック! / Preview the FT shapes here: [github.com/mustar22/mFT/tree/main/Salt#expressions](https://github.com/mustar22/mFT/tree/main/Salt#expressions) ◀◀◀**
+
 Free report. Read this before you buy: what you get, what changes on your avatar, and the numbers, explained.
 Face tracking for **ソルト -Salt-** by komado. Built by mustar.
 

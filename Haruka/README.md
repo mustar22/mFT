@@ -2,6 +2,8 @@
 
 # Haruka Face Tracking v2.0.0-native_V1
 
+**▶▶▶ FT シェイプを動くプレビューでチェック! / Preview the FT shapes here: [github.com/mustar22/mFT/tree/main/Haruka#expressions](https://github.com/mustar22/mFT/tree/main/Haruka#expressions) ◀◀◀**
+
 **Hotpatch landed (fits Haruka v1.00). Delete Haruka_FT in the scene, turn Haruka back on, delete Assets/_Haruka_FT, import the new package, press Patch again.**
 
 **ホットパッチ配信 (はるか v1.00 対応)。シーンの Haruka_FT を削除して元の Haruka を表示に戻し、Assets/_Haruka_FT フォルダーを削除、新しいパッケージをインポートして、もう一度パッチを当ててください。**
