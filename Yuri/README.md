@@ -2,7 +2,6 @@
 
 # Yuri Face Tracking v2.0.0-native
 
-**▶▶▶ FT シェイプを動くプレビューでチェック! / Preview the FT shapes here: [github.com/mustar22/mFT/tree/main/Yuri#expressions](https://github.com/mustar22/mFT/tree/main/Yuri#expressions) ◀◀◀**
 
 Free report. Read this before you buy: what you get, what changes on your avatar, and the numbers, explained.
 Face tracking for **悠莉 - Yuri -** by VISIONTOKYO. Built by mustar. Native (VRChat's built-in FT) and classic install in one package.

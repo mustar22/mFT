@@ -2,7 +2,6 @@
 
 # Chiyu Face Tracking v2.0.0-native
 
-**▶▶▶ FT シェイプを動くプレビューでチェック! / Preview the FT shapes here: [github.com/mustar22/mFT/tree/main/Chiyu#expressions](https://github.com/mustar22/mFT/tree/main/Chiyu#expressions) ◀◀◀**
 
 Free report. Read this before you buy: what you get, what changes on your avatar, and the numbers, explained.
 Face tracking for **ちゆ - Chiyu** by plium. Built by mustar.
