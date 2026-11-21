@@ -4,7 +4,7 @@
 
 <p align="center">mFT v2.0.0-native for <b>Diana by 雑司</b></p>
 
-<p align="center"><a href="https://ozoniya.booth.pm/">Diana by 雑司</a></p>
+<p align="center"><a href="https://mustarlabs.booth.pm/items/9194443">mFT on BOOTH</a> · <a href="https://ozoniya.booth.pm/items/9108761">Diana by 雑司</a> · <a href="https://youtu.be/eJ7l7llmK-4">Demo video</a></p>
 
 ## Expressions
 
