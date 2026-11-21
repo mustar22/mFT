@@ -88,6 +88,16 @@ FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。
 
 </details>
 
+<details><summary>Emotes and auto effects (12)</summary>
+
+<table>
+<tr><td align="center"><img src="expressions/Auto_Blush.webp" width="200" loading="lazy"><br><sub>Auto: blush on a big smile</sub></td><td align="center"><img src="expressions/Auto_Tears.webp" width="200" loading="lazy"><br><sub>Auto: tears on a frown</sub></td><td align="center"><img src="expressions/Auto_Sweat.webp" width="200" loading="lazy"><br><sub>Auto: sweat when surprised</sub></td><td align="center"><img src="expressions/Auto_Sparkle.webp" width="200" loading="lazy"><br><sub>Auto: sparkle when happy</sub></td></tr>
+<tr><td align="center"><img src="expressions/Emote_HeartPupils.webp" width="200" loading="lazy"><br><sub>Emote: heart pupils</sub></td><td align="center"><img src="expressions/Emote_DiamondPupils.webp" width="200" loading="lazy"><br><sub>Emote: diamond pupils</sub></td><td align="center"><img src="expressions/Emote_CatPupils.webp" width="200" loading="lazy"><br><sub>Emote: cat pupils</sub></td><td align="center"><img src="expressions/Emote_CrossPupils.webp" width="200" loading="lazy"><br><sub>Emote: cross pupils</sub></td></tr>
+<tr><td align="center"><img src="expressions/Emote_PlusPupils.webp" width="200" loading="lazy"><br><sub>Emote: plus pupils</sub></td><td align="center"><img src="expressions/Emote_DeadEyes.webp" width="200" loading="lazy"><br><sub>Emote: dead eyes</sub></td><td align="center"><img src="expressions/Emote_SharkTeeth.webp" width="200" loading="lazy"><br><sub>Emote: shark teeth</sub></td><td align="center"><img src="expressions/Emote_Fangs.webp" width="200" loading="lazy"><br><sub>Emote: fangs</sub></td></tr>
+</table>
+
+</details>
+
 ## English
 
 ### In short
@@ -106,8 +116,8 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 
 | number | what it means |
 |---|---|
-| You +0.58 ms, viewers +0.54 ms | Extra cost per frame. Her own FX is about 0.12 ms. |
-| Her own 94 / 256, FT 29 | Synced parameters, counted apart. The face itself is 0 bits (VRChat's built-in FT carries it). |
+| You +0.62 ms, viewers +0.58 ms | Extra cost per frame. Her own FX is about 0.10 ms. |
+| Her own 94 / 256, FT 30 | Synced parameters, counted apart. The face itself is 0 bits (VRChat's built-in FT carries it). |
 | 87 shapes + her 536 | 67 for FT, 5 copies of her own parts, 15 visemes at 35%. None of her shapes are removed. |
 | Tongue: 10 poses | Out, up, down, left, right, 4 diagonals, roll. Out grows in 4 stages and waits for the jaw: in below 20%, fully out by 45%. |
 | Package 2.0 MB | Difference data only. No avatar data inside. |
@@ -121,6 +131,7 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 - Freeze, pupils (emulated or tracker), PaperTrackerMode.
 - Eyes that react: lids follow your gaze, raised brows lift the lids a little.
 - Gaze range set on her own eyes: out 40.7, in 27.3, up 17.2, down 28.7.
+- Emotes, effects only (the face stays on tracking). In the patcher only Auto effects comes ticked, the manual emotes are yours to add (1 bit each). In game every emote starts OFF. Auto effects (blush on a big smile, tears on a frown, sweat when surprised, sparkle when happy). The 8 manual emotes: (heart, diamond, cat, cross and plus pupils, dead eyes, shark teeth, fangs).
 
 ### What changes on your avatar
 
@@ -129,11 +140,12 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 - Her own face toggles (Face, Face Option) keep working on top of tracking.
 - Lip sync on the copy runs through my layer. Uninstall puts it back.
 - Her outfit, hair, horn, ear, tail and color menus keep working.
+- Her Face menu moves to Face Tracking > Extras (her faces override tracking while on).
 
 ### Cons
 
 - Diana only. Tested on PC, Quest is untested.
-- Native only: with her own 94 bits, the classic install doesn't fit (about 269 / 256).
+- Native only: with her own 94 bits, the classic install doesn't fit (about 270 / 256).
 - Calibration and Tune are saved, but Reset Avatar puts them back to default.
 - If a Diana update changes her face mesh, an updated version is needed.
 
@@ -177,8 +189,8 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 
 | 数字 | 意味 |
 |---|---|
-| 自分 +0.58 ms、他の人 +0.54 ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 0.12 ms。 |
-| 彼女自身 94 / 256、FT 29 | 同期パラメーターは別々に数えます。顔の動き自体は 0 bit (VRChat 本体の FT が運びます)。 |
+| 自分 +0.62 ms、他の人 +0.58 ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 0.10 ms。 |
+| 彼女自身 94 / 256、FT 30 | 同期パラメーターは別々に数えます。顔の動き自体は 0 bit (VRChat 本体の FT が運びます)。 |
 | シェイプ 87 個 + 彼女の 536 個 | 67 個は FT 用、5 個は彼女のパーツの複製、15 個はビゼーム 35%。彼女のシェイプは 1 つも消しません。 |
 | 舌 10 ポーズ | 出す、上下左右、斜め 4 つ、丸め。舌出しは 4 段階で伸び、あごを待ちます: 20% まではしまったまま、45% で全部出ます。 |
 | パッケージ 2.0 MB | 差分データのみ。アバター本体のデータは入っていません。 |
@@ -192,6 +204,7 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 - フリーズ、瞳 (エミュレートまたはトラッカー)、PaperTrackerMode。
 - 顔に反応する目: まぶたが視線に合わせて動き、眉を上げるとまぶたも少し上がります。
 - 彼女の目に合わせて決めた視線の範囲: 外 40.7、内 27.3、上 17.2、下 28.7。
+- エモート (効果だけ、顔はトラッキングのまま)。パッチャーでは自動エフェクトだけ最初からチェック済み、手動のエモートはお好みで追加 (1 個 1 bit)。ゲーム内ではすべて最初オフです。自動エフェクト (大きな笑顔で頬染め、への字口で涙、驚くと汗、嬉しい顔でキラキラ)。手動のエモート 8 個: (ハート・ダイヤ・猫・バツ・プラスの瞳、ハイライトなしの目、ギザ歯、八重歯)。
 
 ### アバターで変わること
 
@@ -200,11 +213,12 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 - 彼女の表情トグル (Face、Face Option) はトラッキングの上でそのまま使えます。
 - リップシンクはコピー側で私のレイヤーが動かします。アンインストールで元に戻ります。
 - 彼女の衣装、髪、角、耳、しっぽ、カラーのメニューはそのまま使えます。
+- 彼女の Face メニューは Face Tracking > Extras に移ります (表情はトラッキングより優先されます)。
 
 ### 弱点
 
 - ディアナ専用。PC で確認、Quest は未検証。
-- ネイティブ専用: 彼女自身のパラメーターが 94 bit あるため、従来版は入りません (合計 約 269 / 256)。
+- ネイティブ専用: 彼女自身のパラメーターが 94 bit あるため、従来版は入りません (合計 約 270 / 256)。
 - キャリブレーションと Tune は保存されますが、アバターのリセットでは初期値に戻ります。
 - ディアナの更新で顔のメッシュが変わると、対応版が必要です。
 
