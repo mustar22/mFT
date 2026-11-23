@@ -1,3 +1,5 @@
+<p align="right"><b>English</b> · <a href="README.ja.md">日本語</a> · <a href="README.zh.md">中文</a></p>
+
 <p align="center"><img src="icon.png" width="180"></p>
 
 <h1 align="center">Nokua Face Tracking</h1>

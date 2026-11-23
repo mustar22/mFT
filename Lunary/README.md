@@ -1,3 +1,5 @@
+<p align="right"><b>English</b> · <a href="README.ja.md">日本語</a> · <a href="README.zh.md">中文</a></p>
+
 <p align="center"><img src="icon.png" width="180"></p>
 
 <h1 align="center">Lunary Face Tracking</h1>
@@ -88,6 +90,7 @@ FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。
 </table>
 
 </details>
+
 
 ## English
 
