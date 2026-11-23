@@ -137,11 +137,12 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 
 | number | what it means |
 |---|---|
-| You TBD ms, viewers TBD ms | Extra cost per frame. Her own FX is about TBD ms. |
-| Her own 59 / 256, FT 36 | Synced parameters, counted apart (patcher defaults). Each manual emote adds 1 bit. The face itself is 0 bits. |
+| Light / Mid / Full | The three installer presets, in this order: Light (essentials), Mid (the default ticks), Full (every emote). Every number below follows this order. FT bits 9 / 36 / 62. mFT 2.1 is planned: more optimized, with an option to manage and mix shapes. |
+| You 0.82 / 1.18 / 1.44 ms, viewers 0.81 / 1.14 / 1.49 ms | Extra cost per frame. Her own FX is about 0.12 ms. |
+| Her own 59 / 256, FT 9 / 36 / 62 | Synced parameters, counted apart (patcher defaults). Each manual emote adds 1 bit. The face itself is 0 bits. |
 | 145 shapes + her 853 | 92 for FT, 38 copies of her own parts (for emotes), 15 visemes at 35%. None of her shapes are removed. |
 | Tongue: 10 poses | Out (4 stages), up, down, left, right, 4 diagonals, taco roll. It also follows the mouth left and right. |
-| Package TBD | Difference data only. No avatar data inside. |
+| Package 2.4 MB | Difference data only. No avatar data inside. |
 
 ### What you get
 
@@ -217,11 +218,12 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 
 | 数字 | 意味 |
 |---|---|
-| 自分 TBD ms、他の人 TBD ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 TBD ms。 |
-| 彼女自身 59 / 256、FT 36 | 同期パラメーターは別々に数えます (パッチャーの初期設定)。手動エモートは 1 個 1 bit。顔の動き自体は 0 bit。 |
+| ライト / ミドル / フル | 導入画面の3つのプリセット、この順番: ライト (必要なものだけ)、ミドル (最初からのチェック)、フル (エモート全部)。下の数字もすべてこの順番。FT ビット 9 / 36 / 62。mFT 2.1 を予定しています: より最適化され、シェイプを管理・ミックスできるオプション付き。 |
+| 自分 0.82 / 1.18 / 1.44 ms、他の人 0.81 / 1.14 / 1.49 ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 0.12 ms。 |
+| 彼女自身 59 / 256、FT 9 / 36 / 62 | 同期パラメーターは別々に数えます (パッチャーの初期設定)。手動エモートは 1 個 1 bit。顔の動き自体は 0 bit。 |
 | シェイプ 145 個 + 彼女の 853 個 | 92 個は FT 用、38 個は彼女のパーツの複製 (エモート用)、15 個はビゼーム 35%。彼女のシェイプは 1 つも消しません。 |
 | 舌 10 ポーズ | 出す (4 段階)、上下左右、斜め 4 つ、タコスのように丸める。口の左右にもついていきます。 |
-| パッケージ TBD | 差分データのみ。アバター本体のデータは入っていません。 |
+| パッケージ 2.4 MB | 差分データのみ。アバター本体のデータは入っていません。 |
 
 ### 中身
 
