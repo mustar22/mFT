@@ -180,12 +180,12 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 
 ### You need
 
-Nokua (regular or petit prefab), VRChat SDK (3.10.6 or newer), VRCFT (Steam version, main or beta branch), and a face tracker that works with VRCFT (Unified Expressions). Set Nokua up first with rio's own instructions.
+Nokua 1.0 / 1.1 (regular or petit prefab), VRChat SDK (3.10.6 or newer), VRCFT (Steam version, main or beta branch), and a face tracker that works with VRCFT (Unified Expressions). Set Nokua up first with rio's own instructions.
 
 ### Technical details
 
 - How cost was measured: her FX against the built one in Unity, fastest of repeated 10-frame runs (2026-11-24). Noise is about 15%.
-- Face mesh 9,458 verts. Checked on Nokua 1.0 (regular and petit).
+- Face mesh 9,458 verts. Checked on Nokua 1.0 / 1.1 (regular and petit).
 - Zero delta normals, so her face shading stays clean.
 - Gaze runs on shapes, so the eye bones never turn (her anime eye plates never tilt).
 - Tongue: posed by hand on 3 bones in my Tongue Poser, then baked.
@@ -261,12 +261,12 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 
 ### 必要なもの
 
-ノクア (通常またはプチのプレハブ)、VRChat SDK (3.10.6 以降)、VRCFT (Steam 版、メインでもベータブランチでも可)、VRCFT (Unified Expressions) で動くフェイストラッカー。ノクア本体の導入は rio さんの説明書に従ってください。
+ノクア 1.0 / 1.1 (通常またはプチのプレハブ)、VRChat SDK (3.10.6 以降)、VRCFT (Steam 版、メインでもベータブランチでも可)、VRCFT (Unified Expressions) で動くフェイストラッカー。ノクア本体の導入は rio さんの説明書に従ってください。
 
 ### 技術的な詳細
 
 - 負荷の測り方: Unity 上で彼女の FX と完成した FX を比較、10 フレームの実行を繰り返した最速値 (2026-11-24)。誤差は約 15%。
-- 顔のメッシュ 9,458 頂点。ノクア 1.0 で確認 (通常とプチ)。
+- 顔のメッシュ 9,458 頂点。ノクア 1.0 / 1.1 で確認 (通常とプチ)。
 - デルタ法線はゼロ: 彼女の顔の陰影がきれいに保たれます。
 - 視線はシェイプで動かすので、目のボーンは回りません (アニメの目の板が傾きません)。
 - 舌: 自作の Tongue Poser で 3 本のボーンに手でポーズを付けて焼き込み。
