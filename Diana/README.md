@@ -153,12 +153,12 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 
 ### You need
 
-Diana, VRChat SDK (3.10.6 or newer), VRCFT (Steam version, main or beta branch), and a face tracker that works with VRCFT (Unified Expressions). Set Diana up first with 雑司's own instructions.
+Diana (1.0.0 / 1.0.3), VRChat SDK (3.10.6 or newer), VRCFT (Steam version, main or beta branch), and a face tracker that works with VRCFT (Unified Expressions). Set Diana up first with 雑司's own instructions.
 
 ### Technical details
 
 - How cost was measured: her FX against the built one in Unity, fastest of repeated 10-frame runs (2026-11-21). Noise is about 15%.
-- Face mesh 10,443 verts. Checked on Diana 1.0.0.
+- Face mesh 10,443 verts. Checked on Diana 1.0.0 / 1.0.3.
 - Zero delta normals, so her face shading stays clean.
 - Eyes: bone eyes, with the gaze range set on her face in Unity.
 - Tongue: posed by hand in my Tongue Poser. It rides the lower jaw and stays in until the jaw opens (0 bits).
@@ -226,12 +226,12 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 
 ### 必要なもの
 
-ディアナ、VRChat SDK (3.10.6 以降)、VRCFT (Steam 版、メインでもベータブランチでも可)、VRCFT (Unified Expressions) で動くフェイストラッカー。ディアナ本体の導入は雑司さんの説明書に従ってください。
+ディアナ (1.0.0 / 1.0.3)、VRChat SDK (3.10.6 以降)、VRCFT (Steam 版、メインでもベータブランチでも可)、VRCFT (Unified Expressions) で動くフェイストラッカー。ディアナ本体の導入は雑司さんの説明書に従ってください。
 
 ### 技術的な詳細
 
 - 負荷の測り方: Unity 上で彼女の FX と完成した FX を比較、10 フレームの実行を繰り返した最速値 (2026-11-21)。誤差は約 15%。
-- 顔のメッシュ 10,443 頂点。ディアナ 1.0.0 で確認。
+- 顔のメッシュ 10,443 頂点。ディアナ 1.0.0 / 1.0.3 で確認。
 - デルタ法線はゼロ: 彼女の顔の陰影がきれいに保たれます。
 - 目: ボーンの目。視線の範囲は Unity で彼女の顔に合わせて決めました。
 - 舌: 自作の Tongue Poser で手で付けたポーズ。下あごに乗って動き、あごが開くまで出ません (0 bit)。
