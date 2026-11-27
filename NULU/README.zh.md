@@ -86,12 +86,12 @@ FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。
 
 </details>
 
-<details><summary>Tongue (10)</summary>
+<details><summary>Tongue (11)</summary>
 
 <table>
 <tr><td align="center"><img src="expressions/TongueOut.webp" width="200" loading="lazy"><br><sub>TongueOut</sub></td><td align="center"><img src="expressions/TongueRadial.webp" width="200" loading="lazy"><br><sub>Tongue, all directions</sub></td><td align="center"><img src="expressions/TongueUp.webp" width="200" loading="lazy"><br><sub>TongueUp</sub></td><td align="center"><img src="expressions/TongueDown.webp" width="200" loading="lazy"><br><sub>TongueDown</sub></td></tr>
-<tr><td align="center"><img src="expressions/TongueRight.webp" width="200" loading="lazy"><br><sub>Tongue (left)</sub></td><td align="center"><img src="expressions/TongueLeft.webp" width="200" loading="lazy"><br><sub>Tongue (right)</sub></td><td align="center"><img src="expressions/TongueUpRightMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (left)</sub></td><td align="center"><img src="expressions/TongueUpLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (right)</sub></td></tr>
-<tr><td align="center"><img src="expressions/TongueDownRightMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (left)</sub></td><td align="center"><img src="expressions/TongueDownLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (right)</sub></td></tr>
+<tr><td align="center"><img src="expressions/TongueRight.webp" width="200" loading="lazy"><br><sub>Tongue (left)</sub></td><td align="center"><img src="expressions/TongueLeft.webp" width="200" loading="lazy"><br><sub>Tongue (right)</sub></td><td align="center"><img src="expressions/TongueRoll.webp" width="200" loading="lazy"><br><sub>TongueRoll</sub></td><td align="center"><img src="expressions/TongueUpRightMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (left)</sub></td></tr>
+<tr><td align="center"><img src="expressions/TongueUpLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (right)</sub></td><td align="center"><img src="expressions/TongueDownRightMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (left)</sub></td><td align="center"><img src="expressions/TongueDownLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (right)</sub></td></tr>
 </table>
 
 </details>
@@ -123,7 +123,7 @@ mFT 使用我从零编写的模板，是给想要更丰富工具和更强表现�
 | 自己 TBD ms，其他人 TBD ms | 每帧的额外开销。她自己的 FX 约 TBD ms。 |
 | 她自己 41 / 256，FT 28 | 同步参数分开计算 (安装器默认)。脸部动作本身 0 bit。 |
 | 100 个形态键 + 她的 512 个 | 79 个用于 FT，21 个口型副本 (35%，牙齿不动)。不删除她的任何形态键。 |
-| 舌头 4 段 + 8 个方向 | 手工摆姿势。舌头跟随嘴左右移动，嘴也跟随舌头。 |
+| 舌头 4 段 + 8 个方向 + 卷舌 | 手工摆姿势。舌头跟随嘴左右移动，嘴也跟随舌头。 |
 | 安装包 TBD | 仅差分数据，不含模型数据。 |
 
 ### 内容

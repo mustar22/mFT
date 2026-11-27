@@ -86,12 +86,12 @@ FT シェイプ (0 → 1 → 0)。左右は見ている人から見た向き。
 
 </details>
 
-<details><summary>Tongue (10)</summary>
+<details><summary>Tongue (11)</summary>
 
 <table>
 <tr><td align="center"><img src="expressions/TongueOut.webp" width="200" loading="lazy"><br><sub>TongueOut</sub></td><td align="center"><img src="expressions/TongueRadial.webp" width="200" loading="lazy"><br><sub>Tongue, all directions</sub></td><td align="center"><img src="expressions/TongueUp.webp" width="200" loading="lazy"><br><sub>TongueUp</sub></td><td align="center"><img src="expressions/TongueDown.webp" width="200" loading="lazy"><br><sub>TongueDown</sub></td></tr>
-<tr><td align="center"><img src="expressions/TongueRight.webp" width="200" loading="lazy"><br><sub>Tongue (left)</sub></td><td align="center"><img src="expressions/TongueLeft.webp" width="200" loading="lazy"><br><sub>Tongue (right)</sub></td><td align="center"><img src="expressions/TongueUpRightMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (left)</sub></td><td align="center"><img src="expressions/TongueUpLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (right)</sub></td></tr>
-<tr><td align="center"><img src="expressions/TongueDownRightMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (left)</sub></td><td align="center"><img src="expressions/TongueDownLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (right)</sub></td></tr>
+<tr><td align="center"><img src="expressions/TongueRight.webp" width="200" loading="lazy"><br><sub>Tongue (left)</sub></td><td align="center"><img src="expressions/TongueLeft.webp" width="200" loading="lazy"><br><sub>Tongue (right)</sub></td><td align="center"><img src="expressions/TongueRoll.webp" width="200" loading="lazy"><br><sub>TongueRoll</sub></td><td align="center"><img src="expressions/TongueUpRightMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (left)</sub></td></tr>
+<tr><td align="center"><img src="expressions/TongueUpLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueUp (right)</sub></td><td align="center"><img src="expressions/TongueDownRightMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (left)</sub></td><td align="center"><img src="expressions/TongueDownLeftMorph.webp" width="200" loading="lazy"><br><sub>TongueDown (right)</sub></td></tr>
 </table>
 
 </details>
@@ -125,7 +125,7 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 | You TBD ms, viewers TBD ms | Extra cost per frame. Her own FX is about TBD ms. |
 | Her own 41 / 256, FT 28 | Synced parameters, counted apart (patcher defaults). The face itself is 0 bits. |
 | 100 shapes + her 512 | 79 for FT, 21 viseme copies (35%, teeth held still). None of her shapes are removed. |
-| Tongue: 4 stages + 8 directions | Posed by hand. It follows the mouth left and right, and the mouth follows it. |
+| Tongue: 4 stages + 8 directions + taco roll | Posed by hand. It follows the mouth left and right, and the mouth follows it. |
 | Package TBD | Difference data only. No avatar data inside. |
 
 ### What you get
@@ -201,7 +201,7 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 | 自分 TBD ms、他の人 TBD ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 TBD ms。 |
 | 彼女自身 41 / 256、FT 28 | 同期パラメーターは別々に数えます (パッチャーの初期設定)。顔の動き自体は 0 bit。 |
 | シェイプ 100 個 + 彼女の 512 個 | 79 個は FT 用、21 個はビゼーム (35%、歯は動かさない)。彼女のシェイプは 1 つも消しません。 |
-| 舌 4 段階 + 8 方向 | 手で付けたポーズ。口の左右についていき、口も舌の方向についていきます。 |
+| 舌 4 段階 + 8 方向 + タコ巻き | 手で付けたポーズ。口の左右についていき、口も舌の方向についていきます。 |
 | パッケージ TBD | 差分データのみ。アバター本体のデータは入っていません。 |
 
 ### 中身
