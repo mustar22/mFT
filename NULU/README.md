@@ -6,7 +6,7 @@
 
 <p align="center">mFT v2.0.0-native for <b>NULU by uryu (Uryu Lab)</b></p>
 
-<p align="center"><a href="https://mustarlabs.booth.pm/items/9238479">mFT on BOOTH</a> · <a href="https://uryushop.booth.pm/items/9106531">NULU by uryu</a></p>
+<p align="center"><a href="https://mustarlabs.booth.pm/items/9238479">mFT on BOOTH</a> · <a href="https://uryushop.booth.pm/items/9106531">NULU by uryu</a> · <a href="https://youtu.be/26LuIWsXNVE">Demo video</a></p>
 
 <p align="center"><img src="bangs_front.jpg" width="800"><br><sub>Brows, eyes and lashes through bangs, front (options, off by default. Left: stock, right: mFT) · 前髪越しの眉・目・まつげ (正面)</sub></p>
 
@@ -122,11 +122,12 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 
 | number | what it means |
 |---|---|
-| You TBD ms, viewers TBD ms | Extra cost per frame. Her own FX is about TBD ms. |
-| Her own 41 / 256, FT 28 | Synced parameters, counted apart (patcher defaults). The face itself is 0 bits. |
+| Light / Mid / Full | Three ways to set up the installer, in this order: Light (no calibration, no debug panel), Mid (the default ticks), Full (everything on: wrist button, brows and eyes through bangs). Every number below follows this order. |
+| You 0.60 / 0.97 / 0.98 ms, viewers 0.58 / 0.92 / 0.92 ms | Extra cost per frame. Her own FX is about 0.10 ms. |
+| Her own 41 / 256, FT 12 / 28 / 28 | Synced parameters, counted apart (patcher defaults). The face itself is 0 bits. |
 | 100 shapes + her 512 | 79 for FT, 21 viseme copies (35%, teeth held still). None of her shapes are removed. |
 | Tongue: 4 stages + 8 directions + taco roll | Posed by hand. It follows the mouth left and right, and the mouth follows it. |
-| Package TBD | Difference data only. No avatar data inside. |
+| Package 2.55 MB | Difference data only. No avatar data inside. |
 
 ### What you get
 
@@ -198,11 +199,12 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 
 | 数字 | 意味 |
 |---|---|
-| 自分 TBD ms、他の人 TBD ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 TBD ms。 |
-| 彼女自身 41 / 256、FT 28 | 同期パラメーターは別々に数えます (パッチャーの初期設定)。顔の動き自体は 0 bit。 |
+| ライト / ミドル / フル | 導入画面の選び方 3 通り、この順番: ライト (キャリブレーションとデバッグパネルなし)、ミドル (最初からのチェック)、フル (すべてオン: 手首ボタン、前髪越しの眉と目)。下の数字もすべてこの順番。 |
+| 自分 0.60 / 0.97 / 0.98 ms、他の人 0.58 / 0.92 / 0.92 ms | 1 フレームあたりの追加負荷。彼女自身の FX は約 0.10 ms。 |
+| 彼女自身 41 / 256、FT 12 / 28 / 28 | 同期パラメーターは別々に数えます (パッチャーの初期設定)。顔の動き自体は 0 bit。 |
 | シェイプ 100 個 + 彼女の 512 個 | 79 個は FT 用、21 個はビゼーム (35%、歯は動かさない)。彼女のシェイプは 1 つも消しません。 |
 | 舌 4 段階 + 8 方向 + タコ巻き | 手で付けたポーズ。口の左右についていき、口も舌の方向についていきます。 |
-| パッケージ TBD | 差分データのみ。アバター本体のデータは入っていません。 |
+| パッケージ 2.55 MB | 差分データのみ。アバター本体のデータは入っていません。 |
 
 ### 中身
 

@@ -6,7 +6,7 @@
 
 <p align="center">mFT v2.0.0-native for <b>NULU by uryu (Uryu Lab)</b></p>
 
-<p align="center"><a href="https://mustarlabs.booth.pm/items/9238479">mFT on BOOTH</a> · <a href="https://uryushop.booth.pm/items/9106531">NULU by uryu</a></p>
+<p align="center"><a href="https://mustarlabs.booth.pm/items/9238479">mFT on BOOTH</a> · <a href="https://uryushop.booth.pm/items/9106531">NULU by uryu</a> · <a href="https://youtu.be/26LuIWsXNVE">Demo video</a></p>
 
 <p align="center"><img src="bangs_front.jpg" width="800"><br><sub>Brows, eyes and lashes through bangs, front (options, off by default. Left: stock, right: mFT) · 前髪越しの眉・目・まつげ (正面)</sub></p>
 
@@ -120,11 +120,12 @@ mFT 使用我从零编写的模板，是给想要更丰富工具和更强表现�
 
 | 数字 | 含义 |
 |---|---|
-| 自己 TBD ms，其他人 TBD ms | 每帧的额外开销。她自己的 FX 约 TBD ms。 |
-| 她自己 41 / 256，FT 28 | 同步参数分开计算 (安装器默认)。脸部动作本身 0 bit。 |
+| 轻量 / 中等 / 完整 | 安装器的三种设置，按此顺序: 轻量 (无校准、无调试面板)、中等 (默认勾选)、完整 (全部开启: 手腕按钮、透过刘海的眉毛和眼睛)。下面的数字都按这个顺序。 |
+| 自己 0.60 / 0.97 / 0.98 ms，其他人 0.58 / 0.92 / 0.92 ms | 每帧的额外开销。她自己的 FX 约 0.10 ms。 |
+| 她自己 41 / 256，FT 12 / 28 / 28 | 同步参数分开计算 (安装器默认)。脸部动作本身 0 bit。 |
 | 100 个形态键 + 她的 512 个 | 79 个用于 FT，21 个口型副本 (35%，牙齿不动)。不删除她的任何形态键。 |
 | 舌头 4 段 + 8 个方向 + 卷舌 | 手工摆姿势。舌头跟随嘴左右移动，嘴也跟随舌头。 |
-| 安装包 TBD | 仅差分数据，不含模型数据。 |
+| 安装包 2.55 MB | 仅差分数据，不含模型数据。 |
 
 ### 内容
 
