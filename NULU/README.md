@@ -139,9 +139,7 @@ mFT runs on my own template, written from scratch, for people who want a wider t
 - Eyes: gaze turns her eye bones. Up, down, in and out were each set by hand on her eyes. Looking up lifts the upper lid, looking down lowers the lower lid.
 - Closed eyes: her own close let the iris peek through, so it now seals fully. Smile + closed and frown + closed each get their own fix (a soft arch, a sad tilt).
 - Teeth: her teeth rest open, so a closed bite is the base. When the mouth opens, upper and lower teeth part evenly. Visemes never move the teeth (no clipping on a clenched bite).
-- Mouth to the side: the skin clears the teeth (a hand-sculpted fix). Funnel and pucker reshaped for her.
 - Tongue: posed by hand on 4 bones in my Tongue Poser, then baked. 4 out stages that arch over the lower teeth, 8 directions. Her jaw opens a little for it (never past 100%).
-- Cheek puff is capped at 70%.
 - Brows through bangs (option, off by default): from the front, her brows show over her front hair. 0 bits.
 - Eyes through bangs (option, off by default): her eye, lashes and eye white show softly through the front hair. 0 bits.
 - Her face sliders stay as you set them.
@@ -216,9 +214,7 @@ mFT はゼロから作った独自テンプレートで、より幅広いツー�
 - 目: 視線は彼女の目のボーンで動きます。上下左右の範囲は彼女の目に合わせて手で決めました。上を見ると上まぶたが上がり、下を見ると下まぶたが下がります。
 - 閉じた目: 元の閉じ目では瞳が少し見えていたので、しっかり閉じるようにしました。笑顔+閉じ目と、への字口+閉じ目には専用の補正 (やわらかいアーチ、悲しげな傾き)。
 - 歯: 彼女の歯は普段開いているので、閉じた歯並びを基本にしました。口を開けると上下の歯がそろって開きます。ビゼームは歯を動かしません (食いしばった歯が突き抜けません)。
-- 口を左右に寄せても、肌が歯に重なりません (手で作った補正)。すぼめ口と、をの口を彼女向けに作り直しました。
 - 舌: 自作の Tongue Poser で 4 本のボーンに手でポーズを付けて焼き込み。出す途中の 4 段階は下の歯の上を越えていきます。方向は 8 つ。舌のためにあごが少し開きます (100% を超えません)。
-- 頬ふくらませは 70% までに抑えています。
 - 前髪越しの眉 (オプション、最初はオフ): 正面から見ると眉が前髪の上に見えます。0 bit。
 - 前髪越しの目 (オプション、最初はオフ): 目、まつげ、白目が前髪越しにうっすら見えます。0 bit。
 - 彼女の顔の形スライダーはそのまま残ります。
